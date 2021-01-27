@@ -6,7 +6,7 @@
 
 ---
 name: luna_pinyin.i
-version: "2017.05.01"
+version: "2019.1.13"
 sort: by_weight
 use_preset_vocabulary: true
 ...
@@ -14,26 +14,63 @@ use_preset_vocabulary: true
 # #####################################################
 
 # 中文特有名词
+笑哭	xiao ku
+傲娇	ao jiao
+补全	bu quan
+包邮	bao you
+酷安	ku an
+简书	jian shu
+校招	xiao zhao
+社招	she zhao
+众筹	zhong chou
+苹方	ping fang
+拉黑	la hei
+候选词	hou xuan ci
+修饰键	xiu shi jian
+公众号	gong zhong hao
+五险一金	wu xian yi jin
+全栈	quan zhan
+选择器	xuan ze qi
+响应式布局	xiang ying shi bu ju
 
-德玛西亚
-莱布尼茨
-伊卡洛斯
-亚克西
-续一秒
-膜蛤
-膜法师
-亦可赛艇
-肖申克
-史蒂芬
-史蒂夫
+# 修饰键
+cmd	cmd	10000
+opt	opt	10000
+cap	cap	10000
+backspace	backs	10000
+backspace	backs pa	10000
+backspace	backs pa ce	10000
+del	del	10000
+eject	eject	10000
 
-# 词频调整
+# 常用
+知乎	zhi hu	10001
+陌陌	mo mo	10000
+拉勾	la gou	10001
+小米	mi	10001
+淘宝	tao bao	10001
+天猫	tian mao	10001
+京东	jing dong	10001
+Stack Overflow	so f	10001
 
-茉茉	mo mo	1
-霾霾	mai mai	1
+# 网址
+https://www.google.com/	google	10000
+github.com	github	10000
+zhihu.com	zhi hu	10000
+baidu.com	bai du	10000
+baike.baidu.com	baike	10000
+dict.youdao.com	dict	10000
+bilibili.com	b l b l	10000
+lagou.com	la gou	10000
+smartisan.com	s ma r	10001
+t.tt	s ma r	10000
+mi.com	mi	10000
+taobao.com	tao bao	10000
+tmall.com	tian mao	10000
+jd.com	jing dong	10000
+stackoverflow.com	so f	10000
 
-# 网址、网站
-
+# 网站
 v2ex	v tex	10000
 V2EX	v tex	10001
 douban	dou ban
@@ -48,23 +85,18 @@ Google	go o gle
 Google	gu ge	10000
 Twitter	twitter
 Twitter	t w	10000
-Weibo	wei bo	10000
 Plurk	p lurk
 QCon	q con
 TED	ted
-Taobao	tao bao	10000
 Yahoo	ya hoo
 Youku	you ku
 YouTube	you tube
 YouTube	y t b	10000
 ZeroNet	zero net
-Zhihu	zhi hu	10001
-知乎	zhi hu	10000
 cnBeta	cnbeta
 infoQ	infoq
 
 # 电脑硬件厂商厂牌 & 硬件产品名
-
 Nvidia	n vidia
 Ruff	r u f f
 Xeon	x eon
@@ -78,14 +110,12 @@ Nikon	ni kang	10000
 Arduino	arduino
 
 # 新闻厂商厂牌
-
 BBC	b b c	10000
 CCTV	c c t v
 中国中央电视台	c c t v
 CNN	c n n
 
 # 电脑软件厂商厂牌 & 软件名 (民用系统、软件，开发用开源库、框架)
-
 Tencent	ten cent
 Oracle	o racle
 Mozilla	mo zilla
@@ -120,7 +150,6 @@ Rails	r a i l s	10000
 Ruby on Rails	r o r	10000
 
 # 游戏、球队厂商厂牌
-
 NBA	n b a	10000
 NCAA	n c a a
 FIFA	f i f a
@@ -136,7 +165,6 @@ Warriors	warriors
 World of Warcraft	w o w
 
 # 文化厂商厂牌、节目与艺术家
-
 Wiki	w i k i	10000
 Wikipedia	wikipedia	10000
 WWYD	w w y d	10000
@@ -156,7 +184,6 @@ Chou	c h o u
 #
 
 # 一般技术词汇
-
 http	http
 HTTP	http
 https	https
@@ -200,7 +227,7 @@ lock	l o c k
 ascii	a s c i i
 code	c o d e
 dev	d e v
-sudo	s u d o
+sudo	su do
 text	t e x t
 yum	y u m
 programming	programming
@@ -240,10 +267,7 @@ xlsx	x l s
 高阶函数
 依赖注入
 
-# 硬件技术词汇
-
 # 软件技术词汇 - 前端
-
 JavaScript	j s	10000
 JavaScript	javascript
 CSS	c s s
@@ -258,7 +282,6 @@ JSLint	j s l i n t
 
 
 # 软件技术词汇 - 后端
-
 C#	c s h a r p
 Maven	m a v e n
 Perl	p e r l
@@ -271,9 +294,8 @@ C++	c p p
 J2EE	j t e e
 
 # 其他词汇
-
 OK	o k	10000
-TV	t v	10000
+TV	tv	10000
 FBI	f b i
 CIA	c i a
 
@@ -288,7 +310,6 @@ Theta	t h e t a
 # ################## alphabet & character ###################################
 
 # Math
-
 ∵	b e c a u s e
 ∵	yin wei	1000
 ∴	t h e r e f o r e
@@ -310,7 +331,6 @@ Theta	t h e t a
 ≐	d o t e q
 
 # Greek alphabet
-
 Α	a l p h a	10
 Β	b e t a	10
 Γ	g a m m a	10
@@ -361,7 +381,6 @@ Theta	t h e t a
 ω	o m e g a	10
 
 # ################## simple english ###################################
-
 abc	a b c
 ABC	a b c
 APP	a p p
@@ -413,10 +432,3 @@ win	w i n
 
 please	p l s
 bullshit	b s
-
-
-# ################## more glossary ###################################
-
-example	e g	10000
-
-#	...	10000
