@@ -16,25 +16,164 @@
 #
 # no comment
 
-馬上到！	msd
-什麼玩意兒!	wtf	2
-What the fuck!	wtf	1
-WTF	wtf	3
-星際我爭霸	starcraft
-HorizonZeroDawn	hzd	4
-地平线：黎明时分	hzd	2
-正在開會，一會給你回復：）	meet
-中州韻輸入法引擎	rime	2
+
+
+Rime	rime	4
+鼠须管	rime	3
+https://rime.im/	rime	2
+Squirrel	rime	1
+
+>	dy	2
+≥	dy	1
+<	xy	2
+≤	xy	1
+
+AP	ap
+App app
+App Store	as	2
+Apple Store	as	1
+AC86U	ac	2
+AppleCare+	ac	1
+Apple ID	aid
+Apple Music	am	2
+AiMesh	am	1
+AirPods	ap	4
+Apple Pay	ap	3
+Alipay	ap	2
+
+Apple TV	atv
+Apple Watch	aw
+Android	az
+App Cleaner & Uninstaller	acu
+
+ClashX	cla
+Chrome  ch  100
+CleanMyMac X	cmm	1
+Command	cm	1
+Control	ct	2
+CarPlay	cp	1
+CleanShot X	cs
+
+Download	dl	1
+Downie	dow
+Dear	dear
+
+
+Enpass	enp
+Emoji	em
+Mimestream	mim
+
+Final Cut Pro	fcp
+
+gfwlist	gfw
+
+GitHub Desktop	gh	1
+GitHub	gh	2
+Gmail	gm
+Google	gg
+Google Pay	gp
+Google Voice	gv
+Gboard	gb
+
+Handoff	ho
+Hi	hi
+
+HyperSwitch	hs
+
+iCloud	ic
+
+Illustrator	ill
+iStat Menus	ism
+iWork	iw	4
+iTunes	itunes
+iMac	imac	2
+iMac Pro	imac	1	
+iPad	ipad	4
+iPad Air	ipad	3
+iPad Pro	ipad	2
+iPhone	ip	5
+iPhone XS Max	ip	4
+iPhone XR	ip	3
+iPhone 12 Pro	ip	2
+iPod	ipod
+IPTV	iptv
+IPv6	ipv
+
+Keynote	kn
+koolproxy	kpr
+koolshare	ks
+Evutec	kfl
+
+Lightning to USB-C	ltc
+Lightning to USB	ltu
+LINE	line
+
+Mac	mac	2
+Mac mini	mac	1
+
+Markdown	md
+Microsoft	mic	2
+Microsoft Office	mic	1
+Netflix	nf	
+MacBook Pro	mbp
+MacBook Air	mba
+Messenger	ms
+㎡	pfm
+
+🐂️🍺️	nb	2
+Numbers	nb	1
+
+1Password	one	2
+OneDrive	one	1
+openwrt	ow
+Option	ot
+Outlook	ol	2
+outlook.com	ol	1
+
+Parallels Desktop	pd
+Paragon NTFS	pn
+Photoshop	ps
+Paypal	pp
+
+Quantumult	quan
+QQ	qq
+
+Pages	pg
+
+readme.md	rm
+
+ScreenBar Plus	sbp	1
+Shadowrocket	sds	3	
+Shadowsocks	sds	2
+ShadowsocksX-NG-R8	sds	1
+Safari	sf	2
+Shift	sf	1
+SHIELD TV	stv
+SSD	ssd	2
+℃	ssd	1
+Spotify	sp	1
+Spark	sp	2
+Sublime Text	sbt
+
+Twitter	tt
+Type-C	tc	
+Typora	ty
+TeamViewer  tv
+USB-C	uc
+Up主	upzhu
+
+WH-1000XM2	sn
+WhatsApp	wa
+WeChat	wc	2
+
+YouTube	yt
+YouTube Premium	yp
 又双叒叕	yyy
-http://rime.im/	rime	1
-Rime	rime	3
-⌘	cmd
-⌃	ctl
-⌥	opt
-⇧	shift
-GBK	gbk
-UTF-8	utfba
-scomper@gmail.com	smail
-scomper	scomper
-macOS High Sierra	macoshs
+
+
+
+
+
+
+
 
