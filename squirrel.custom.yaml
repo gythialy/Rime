@@ -20,7 +20,9 @@ patch:
   label_font_point: 18
 
   # 修改后面的名字更换皮肤
-  style/color_scheme: mritd_dark   # Mac仿原生亮色
+  style:
+    color_scheme: macos_light
+    color_scheme_dark: mritd_dark
 
   # 皮肤主题 
   preset_color_schemes:
