@@ -38,12 +38,9 @@ patch:
 
 #  载入朙月拼音扩充词库
   "translator/dictionary": luna_pinyin.extended
-#  拼写纠错（不建议开启）
-  #"translator/enable_correction": true
 
 # 加载easy_en依赖
   "schema/dependencies/@1": easy_en
-
 # 载入翻译英文的码表翻译器，取名为 english
   "engine/translators/@4": table_translator@english
 # english翻译器的设定项
@@ -74,12 +71,11 @@ patch:
       '\': "、"
       "/": ["/", "÷"]
       "'": { pair: ["「", "」"] }
-      "[": ["【", "「", "〔", "["]
-      "]": ["】", "」", "〕", "]"]
+      "[": ["【", "〔", "［"]
+      "]": ["】", "〕", "］"]
       "<": "《"
       ">": "》"
       "*": "*"
-      "|": ["｜", "|", "·", "・"]
   recognizer/patterns/punct: "^/([a-z]+|[0-9]0?)$"
 
   # 模糊拼音
@@ -167,6 +163,4 @@ patch:
   #  - "xform/([nljqxyzcs])v/$1ü/"
 
 # librime-lua 输入动态时间和日期
-  engine/translators/+: 
-    - lua_translator@date_translator
-    - lua_translator@time_translator
+  "engine/translators/@6": lua_translator@date_translator

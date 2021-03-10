@@ -28,8 +28,6 @@ Squirrel	rime	1
 <	xy	2
 ≤	xy	1
 
-AP	ap
-App app
 App Store	as	2
 Apple Store	as	1
 AC86U	ac	2
@@ -46,6 +44,8 @@ Apple Watch	aw
 Android	az
 App Cleaner & Uninstaller	acu
 
+Chrome	ch	2
+Clubhouse	ch
 ClashX	cla
 Chrome  ch  100
 CleanMyMac X	cmm	1
@@ -72,6 +72,7 @@ GitHub	gh	2
 Gmail	gm
 Google	gg
 Google Pay	gp
+Google Play	gp	2
 Google Voice	gv
 Gboard	gb
 
@@ -99,7 +100,6 @@ iPod	ipod
 IPTV	iptv
 IPv6	ipv
 
-Keynote	kn
 koolproxy	kpr
 koolshare	ks
 Evutec	kfl
@@ -111,6 +111,8 @@ LINE	line
 Mac	mac	2
 Mac mini	mac	1
 
+macOS	macos	2
+macOS BigSur	macos	1
 Markdown	md
 Microsoft	mic	2
 Microsoft Office	mic	1
@@ -134,9 +136,10 @@ Parallels Desktop	pd
 Paragon NTFS	pn
 Photoshop	ps
 Paypal	pp
+Pro	pro
 
-Quantumult	quan
 QQ	qq
+Quantumult	quan
 
 Pages	pg
 
