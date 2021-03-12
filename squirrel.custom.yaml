@@ -121,34 +121,28 @@ patch:
 # 皮肤效果请参考：https://github.com/liuour/rime-pifu
 
   app_options:    # App关闭中文输入, 右键『应用.app』-> 显示包内容 Contents/Info.plist -> BundleIdentifier
+    com.apple.Spotlight:            # 聚焦搜索
+      ascii_mode: true
+    com.runningwithcrayons.Alfred:  # alfred
+      ascii_mode: true
+    com.apple.Terminal:             # 终端
+      ascii_mode: true
+    com.microsoft.VSCode:           # Visual Studio Code
+      ascii_mode: false           # 开启中文输入
+      ascii_punct: true           # 半角符号即中文状态输入英文标点
     com.apple.dt.Xcode:
       ascii_mode: true
-    com.apple.Spotlight:
-      ascii_mode: true
-    com.apple.Terminal:
-      ascii_mode: true
-      no_inline: true
     com.googlecode.iterm2:
       ascii_mode: true
-    com.runningwithcrayons.Alfred:
-      ascii_mode: true
-      no_inline: true
     com.google.Chrome:
       ascii_mode: true
-      no_inline: true
     com.scitools.Understand:
-      ascii_mode: true
-    com.microsoft.VSCode:
       ascii_mode: true
     com.jetbrains.intellij:
       ascii_mode: true
     com.jetbrains.CLion:
       ascii_mode: true
-    org.mozilla.firefox:
-      ascii_mode: true
     com.DanPristupov.Fork:
-      ascii_mode: true
-    com.microsoft.edgemac:
       ascii_mode: true
     com.raycast.macos:
       ascii_mode: true
