@@ -8,30 +8,15 @@ patch:
     - name: zh_simp                      # (※1) 繁简转换
       reset: 1
       states: ["漢字", "汉字"]
-    - options: ["utf8", "gbk", "gb2312"] # (※2)字符集选单
-      reset: 0                           #     默认 UTF8
-      states:
-        - UTF-8
-        - GBK
-        - GB2312
-    - name: show_emoji
-      reset: 1
-      states: [ "🈚️️\uFE0E", "🈶️️\uFE0F" ]
 
   simplifier:
     option_name: zh_simp
     
   engine/filters:
-      - simplifier
-      - simplifier@emoji_conversion
-      - uniquifier
-      - charset_filter@gbk              # (※3) GBK 过滤
-      - single_char_filter
-
-  emoji_conversion:
-    opencc_config: emoji.json
-    option_name: show_emoji
-    tags: abc
+    - simplifier
+    - uniquifier
+    - charset_filter@gbk              # (※3) GBK 过滤
+    - single_char_filter
 
 # 改写拼写运算，使得含西文的词汇（位于 luna_pinyin.cn_en.dict.yaml 中）不影响简拼功能（注意，此功能只适用于朙月拼音系列方案，不适用于各类双拼方案）
   "speller/algebra/@before 0": xform/^([b-df-hj-np-tv-z])$/$1_/
@@ -77,7 +62,6 @@ patch:
       "]": ["】", "〕", "］"]
       "<": "《"
       ">": "》"
-      "*": "*"
   recognizer/patterns/punct: "^/([a-z]+|[0-9]0?)$"
 
   # 模糊拼音
@@ -166,3 +150,9 @@ patch:
 
 # librime-lua 输入动态时间和日期
   "engine/translators/@6": lua_translator@date_translator
+
+__patch:
+# Rx: emoji:customize:schema=luna_pinyin_simp {
+  - patch/+:
+      __include: emoji_suggestion:/patch
+# }
