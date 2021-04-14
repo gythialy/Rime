@@ -129,7 +129,7 @@ patch:
       ascii_mode: true
     com.microsoft.VSCode:           # Visual Studio Code
       ascii_mode: false             # 开启中文输入
-      ascii_punct: true             # 半角符号即中文状态输入英文标点
+      # ascii_punct: true             # 半角符号即中文状态输入英文标点
     com.apple.dt.Xcode:
       ascii_mode: true
     com.googlecode.iterm2:
@@ -153,6 +153,6 @@ patch:
     com.tencent.Lemon:
       ascii_mode: true
     com.tencent.meeting:
-     ascii_mode: true
+      ascii_mode: true
 
 

@@ -1,2 +1,4 @@
 var:
-  last_build_time: 1617790121
+  last_build_time: 1618394611
+  option:
+    full_shape: false
