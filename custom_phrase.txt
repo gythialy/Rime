@@ -24,6 +24,7 @@ Squirrel	rime	1
 ≥	dy	1
 <	xy	2
 ≤	xy	1
+≈	ydy	4
 App Store	as	2
 Apple Store	as	1
 AC86U	ac	2
