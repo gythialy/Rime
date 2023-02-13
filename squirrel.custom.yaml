@@ -450,5 +450,6 @@ patch:
       ascii_mode: true
     wiki.qaq.ray0n:
       ascii_mode: true
-
+    org.alacritty:
+      ascii_mode: true
 
