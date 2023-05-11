@@ -7,7 +7,7 @@
 #
 ---
 name: en_ext
-version: "2023-04-28"
+version: "2023-05-09"
 sort: by_weight
 ...
 # 一些杂项
@@ -16,6 +16,7 @@ sort: by_weight
 .DS_Store	DSStore
 唵嘛呢叭咪吽	ongmanibeimeihong
 唵嘛呢嘛呢叭咪吽	ongmanimanibeimeihong
+README.md	READMEmd
 
 
 # 按键
@@ -199,6 +200,7 @@ ERC-1155	ERC
 
 
 # +_+
+TypeORM	TypeORM
 Griffiths	Griffiths
 Chapman	Chapman
 Walsh	Walsh
@@ -449,6 +451,7 @@ CallKit	CallKit
 OSS	OSS
 Object Storage Service	OSS
 Object Storage Service	ObjectStorageService
+OceanBase	OceanBase
 YouTube Music	YouTubeMusic
 Apple Music	AppleMusic
 TED	TED
@@ -507,6 +510,7 @@ Chief Technology Officer	CTO
 Chief Technology Officer	ChiefTechnologyOfficer
 Coding	Coding
 Django	Django
+DBMesh	DBMesh
 Excel	Excel
 Flask	Flask
 Facebook	Facebook
@@ -1345,7 +1349,6 @@ McCafe	McCafe
 BSD	BSD
 Berkeley Software Distribution	BSD
 Berkeley Software Distribution	BerkeleySoftwareDistribution
-Berkeley	Berkeley
 DNSPod	DNSPod
 Bandizip	Bandizip
 NATO	NATO
@@ -2178,3 +2181,13 @@ misdirection	misdirection
 librime	librime
 JRPG	JRPG
 Japanese Role-Playing Game	JRPG
+Kuromis	Kuromis
+sorcerer	sorcerer
+sorcerers	sorcerers
+werewolf	werewolf
+disjunction	disjunction
+heil	heil
+maintainers	maintainers
+AmyTelecom	AmyTelecom
+Patreon	Patreon
+Anaconda	Anaconda

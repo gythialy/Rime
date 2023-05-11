@@ -230,11 +230,6 @@ Rime	rime	4
 鼠须管	rime	3
 https://rime.im/	rime	2
 Squirrel	rime	1
->	dy	2
-≥	dy	1
-<	xy	2
-≤	xy	1
-≈	ydy	4
 App Store	as	2
 Apple Store	as	1
 AC86U	ac	2
@@ -281,7 +276,6 @@ iWork	iw	4
 iTunes	itunes
 iMac	imac	2
 iMac Pro	imac	1	
-Keynote	kn
 koolproxy	kpr
 koolshare	ks
 Evutec	kfl
