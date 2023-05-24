@@ -1,6 +1,6 @@
 # Rime table
 # coding: utf-8
-#@/db_name  custom_phrase.txt
+#@/db_name	custom_phrase.txt
 #@/db_type	tabledb
 #
 # 自定义文本
@@ -9,7 +9,7 @@
 #
 # 以 Tab 分割：汉字<Tab>编码<Tab>权重
 #
-# 这个文件内的字词会占据最高权重（排在候选项的最前面）。
+# 这个文件内的字词会占据最高权重（即排在候选项的最前面，因为指定了高权重 custom_phrase/initial_quality: 99）。
 # 但不与其他翻译器互相造词，如果使用了完整编码，那么这个字或词将无法参与造词，即自造词无法被记住。
 # 所以建议只固定非完整编码的字词，「的de」应为「的d」，「是shi」应为「是s」，「仙剑xianjian」应为「仙剑xj」。
 # 也不要写 a e o，因为这三个本身就是完整编码，写了则无法参与造词。
@@ -211,8 +211,6 @@
 什么啊	sma
 
 
-Go	go	2
-go	go	1
 Golang	golang
 Hugo	hugo
 goto	goto
@@ -222,9 +220,6 @@ Dota	dota
 main	main
 Amazon	amazon
 NASA	nasa
-gone	gone
-Go程	gocheng
-code	code
 
 Rime	rime	4
 鼠须管	rime	3
