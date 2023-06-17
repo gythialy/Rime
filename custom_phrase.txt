@@ -325,3 +325,4 @@ Windows	win
 YouTube	yt
 YouTube Premium	yp
 又双叒叕	yyy
+应该	ying	2

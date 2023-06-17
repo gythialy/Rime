@@ -220,7 +220,7 @@ speller:
     # - derive/an/ang/
     - derive/eng/en/
     - derive/en/eng/
-    # - derive/in/ing/
+    - derive/in/ing/
     - derive/ing/in/
     # - derive/ian/iang/
     # - derive/iang/ian/
