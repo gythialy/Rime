@@ -14,7 +14,7 @@
 # 转化应当大写的单词
 ---
 name: en
-version: "2023-06-16"
+version: "2023-07-13"
 sort: by_weight
 ...
 # +_+
@@ -3249,7 +3249,7 @@ chevy	chevy
 chew	chew
 Cheyenne	Cheyenne
 # chf	chf
-chi	chi
+# chi	chi
 Chiang	Chiang
 chic	chic
 chicago	chicago
@@ -12155,8 +12155,8 @@ monstrous	monstrous
 montana	montana
 monte	monte
 Montenegro	Montenegro
-monterey	monterey
-montgomery	montgomery
+Monterey	Monterey
+Montgomery	Montgomery
 month	month
 monthly	monthly
 months	months
@@ -18647,7 +18647,7 @@ tell	tell
 teller	teller
 telling	telling
 tells	tells
-telnet	telnet
+Telnet	Telnet
 Telstra	Telstra
 # tem	tem
 temp	temp

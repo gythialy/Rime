@@ -1,6 +1,7 @@
 -- 以词定字
 -- 来源 https://github.com/BlindingDark/rime-lua-select-character
 -- 删除了默认按键 [ ]，和方括号翻页冲突，需要在 key_binder 下指定才能生效
+-- 20230526195910 不再错误地获取commit_text，而是直接获取get_selected_candidate().text。
 local function utf8_sub(s, i, j)
     i = i or 1
     j = j or -1
@@ -44,14 +45,6 @@ local function utf8_sub(s, i, j)
     end
 end
 
-local function first_character(s)
-    return utf8_sub(s, 1, 1)
-end
-
-local function last_character(s)
-    return utf8_sub(s, -1, -1)
-end
-
 local function select_character(key, env)
     local engine = env.engine
     local context = engine.context
@@ -63,18 +56,20 @@ local function select_character(key, env)
     local first_key = config:get_string('key_binder/select_first_character')
     local last_key = config:get_string('key_binder/select_last_character')
 
-    if (key:repr() == first_key and commit_text ~= "") then
-        engine:commit_text(first_character(commit_text))
-        context:clear()
-
-        return 1 -- kAccepted
-    end
-
-    if (key:repr() == last_key and commit_text ~= "") then
-        engine:commit_text(last_character(commit_text))
-        context:clear()
-
-        return 1 -- kAccepted
+    if context:has_menu() then
+        if (key:repr() == first_key) then
+            if (context:get_selected_candidate().text) then
+                engine:commit_text(utf8_sub(context:get_selected_candidate().text, 1, 1))
+                context:clear()
+            end
+            return 1 -- kAccepted
+        elseif (key:repr() == last_key) then
+            if (context:get_selected_candidate().text) then
+                engine:commit_text(utf8_sub(context:get_selected_candidate().text, -1, -1))
+                context:clear()
+            end
+            return 1 -- kAccepted
+        end
     end
 
     return 2 -- kNoop
