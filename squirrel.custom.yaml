@@ -452,4 +452,5 @@ patch:
       ascii_mode: true
     org.alacritty:
       ascii_mode: true
-
+    org.chromium.Thorium:
+      ascii_mode: true
