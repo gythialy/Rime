@@ -5,7 +5,7 @@ patch:
   style:
     color_scheme: macos_light
     color_scheme_dark: macos_dark
-    comment_font_face: 'PingFangSC'
+    # comment_font_face: 'PingFangSC'
     comment_font_point: 14
 
   # 皮肤主题 
