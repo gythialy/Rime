@@ -4,8 +4,11 @@
 #@/db_type	tabledb
 #
 # 自定义文本
-# 适用于全拼，在方案的 custom_phrase/user_dict 指定；
-# 双拼默认为 custom_phrase_double.txt 需要手动创建
+# 适用于全拼。
+# 双拼默认为 custom_phrase_double.txt 需要手动创建，并更改上面的 db_name 为 custom_phrase_double.txt
+#
+# 以下固定的词汇及顺序纯属个人偏好，仅作示例，
+# 可以增加自己的 .txt 文件，并在方案的 custom_phrase/user_dict 指定为自己的文件。
 #
 # 以 Tab 分割：汉字<Tab>编码<Tab>权重
 #
@@ -18,7 +21,7 @@
 # 比如 Amazon 被纠错为「a ma zong 阿妈粽」，
 # 期望的 Amazon 跑到第二个候选项了，所以这里给它固定死喽。
 #
-# version: "2023-08-15"
+# version: "2023-11-13"
 #
 # 此行之后不能写注释
 
@@ -220,109 +223,7 @@ Dota	dota
 main	main
 Amazon	amazon
 NASA	nasa
-
-Rime	rime	4
-鼠须管	rime	3
-https://rime.im/	rime	2
-Squirrel	rime	1
-App Store	as	2
-Apple Store	as	1
-AC86U	ac	2
-AppleCare+	ac	1
-Apple ID	aid
-Apple Music	am	2
-AiMesh	am	1
-AirPods	ap	4
-Apple Pay	ap	3
-Alipay	ap	2
-Apple TV	atv
-Apple Watch	aw
-Android	az
-App Cleaner & Uninstaller	acu
-Chrome	ch	2
-Clubhouse	ch
-ClashX	cla
-Chrome  ch  100
-CleanMyMac X	cmm	1
-Command	cm	1
-Control	ct	2
-CarPlay	cp	1
-CleanShot X	cs
-Download	dl	1
-Enpass	enp
-Emoji	em
-Mimestream	mim
-Final Cut Pro	fcp
-gfwlist	gfw
-GitHub Desktop	gh	1
-GitHub	gh	2
-Gmail	gm
-Google	gg
-Google Pay	gp
-Google Play	gp	2
-Google Voice	gv
-Gboard	gb
-Handoff	ho
-HyperSwitch	hs
-iCloud	ic
-Illustrator	ill
-iStat Menus	ism
-iWork	iw	4
-iTunes	itunes
-iMac	imac	2
-iMac Pro	imac	1	
-koolproxy	kpr
-koolshare	ks
-Evutec	kfl
-Lightning to USB-C	ltc
-Lightning to USB	ltu
-Mac	mac	2
-Mac mini	mac	1
-macOS	macos	2
-macOS BigSur	macos	1
-Markdown	md
-Microsoft	mic	2
-Microsoft Office	mic	1
-Netflix	nf	
-MacBook Pro	mbp
-MacBook Air	mba
-Messenger	ms
-㎡	pfm
-🐂️🍺️	nb	2
-Numbers	nb	1
-1Password	one	2
-OneDrive	one	1
-openwrt	ow
-Option	ot
-Outlook	ol	2
-outlook.com	ol	1
-Parallels Desktop	pd
-Paragon NTFS	pn
-Photoshop	ps
-Paypal	pp
-Pro	pro
-QQ	qq
-Pages	pg
-readme.md	rm
-ScreenBar Plus	sbp	1
-Shadowrocket	sds	3	
-Safari	sf	2
-Shift	sf	1
-SHIELD TV	stv
-Spotify	sp	1
-Spark	sp	2
-Sublime Text	sbt
-Telegram	tg
-Twitter	tt
-Type-C	tc	
-Typora	ty
-TeamViewer  tv
-USB-C	uc
-V2EX	ve
-WhatsApp	wa
-WeChat	wc	2
-Windows	win
-YouTube	yt
-YouTube Premium	yp
-又双叒叕	yyy
-应该	ying	2
+gone	gone
+Go程	gocheng
+code	code
+SOHO	soho

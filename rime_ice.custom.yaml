@@ -135,3 +135,4 @@ patch:
     - derive/ong$/on/ # lon → long
     - derive/([tl])eng$/$1en/ # ten → teng
     - derive/([qwrtypsdfghjklzxcbnm])([aeio])ng$/$1ng/ # lng → lang、leng、ling、long
+  custom_phrase/user_dict: rime_custom_phrase
