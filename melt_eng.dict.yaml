@@ -1,13 +1,3 @@
-# Rime dictionary
-# encoding: utf-8
-#
-# 挂载英文输入方案的词库
-#
-
----
-name: melt_eng
-version: "2023-05-09"
-import_tables:
-  - en_dicts/en_ext # 补充（里面有些许带权重的，且和 en 重复，需要把 en_ext 放在上面）
-  - en_dicts/en     # 英文主词库
-...
+version https://git-lfs.github.com/spec/v1
+oid sha256:e23bd4ea294d5e04e7b50fbd160fb253e489f44f28c2b8911af276d96db04973
+size 288
