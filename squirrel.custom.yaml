@@ -5,7 +5,7 @@ patch:
   style:
     color_scheme: macos_light
     color_scheme_dark: macos_dark
-    font_face: "MiSans TC, MiSans, MiSans L3" # 候选词编号字体
+    font_face: "MiSans, MiSans L3, LXGW WenKai, PingFangSC" # 候选词编号字体
     font_point: 17 # 候选文字大小
     # comment_font_face: 'PingFangSC'
     comment_font_point: 14
