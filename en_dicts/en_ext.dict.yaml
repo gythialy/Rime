@@ -1019,7 +1019,8 @@ Digital Millennium Copyright Act	DigitalMillenniumCopyrightAct
 PUA	PUA
 Pickup Artists	PUA
 Pickup Artists	PickupArtists
-docker	docker
+Dockerfile	Dockerfile
+Docker Hub	DockerHub
 Darcula	Darcula
 Google Analytics	GoogleAnalytics
 Cloudflare Pages	CloudflarePages
@@ -2405,3 +2406,4 @@ Samsung Galaxy	SamsungGalaxy
 VimL	VimL
 Vimscript	Vimscript
 Vimscripts	Vimscripts
+kubectl	kubectl
