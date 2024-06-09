@@ -95,3 +95,6 @@ patch:
     ru.keepcoder.Telegram:
       # 規避 https://github.com/rime/squirrel/issues/475
       inline: true
+    com.colliderli.iina:
+      ascii_mode: true
+
