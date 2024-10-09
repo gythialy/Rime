@@ -1,0 +1,141 @@
+# Rime table
+# coding: utf-8
+#@/db_name	rime_custom_phrase.txt
+#@/db_type	tabledb
+#
+# 自定义文本
+# 适用于全拼，在方案的 custom_phrase/user_dict 指定；
+# 双拼默认为 custom_phrase_double.txt 需要手动创建
+#
+# 以 Tab 分割：汉字<Tab>编码<Tab>权重
+#
+# 这个文件内的字词会占据最高权重（即排在候选项的最前面，因为指定了高权重 custom_phrase/initial_quality: 99）。
+# 但不与其他翻译器互相造词，如果使用了完整编码，那么这个字或词将无法参与造词，即自造词无法被记住。
+# 所以建议只固定非完整编码的字词，「的de」应为「的d」，「是shi」应为「是s」，「仙剑xianjian」应为「仙剑xj」。
+# 也不要写 a e o，因为这三个本身就是完整编码，写了则无法参与造词。
+#
+# 最下面的英文是因为一些常用单词的第一候选项被纠错覆盖了，
+# 比如 Amazon 被纠错为「a ma zong 阿妈粽」，
+# 期望的 Amazon 跑到第二个候选项了，所以这里给它固定死喽。
+#
+# version: "2023-08-15"
+#
+# 此行之后不能写注释
+
+go	go
+Golang	golang
+Hugo	hugo
+goto	goto
+domain	domain
+TODO	todo
+Dota	dota
+main	main
+Amazon	amazon
+NASA	nasa
+
+Rime	rime	4
+鼠须管	rime	3
+https://rime.im/	rime	2
+Squirrel	rime	1
+App Store	as	2
+Apple Store	as	1
+AC86U	ac	2
+AppleCare+	ac	1
+Apple ID	aid
+Apple Music	am	2
+AiMesh	am	1
+AirPods	ap	4
+Apple Pay	ap	3
+Alipay	ap	2
+Apple TV	atv
+Apple Watch	aw
+Android	az
+App Cleaner & Uninstaller	acu
+Chrome	ch	2
+Clubhouse	ch
+ClashX	cla
+Chrome	ch	100
+CleanMyMac X	cmm	1
+Command	cm	1
+Control	ct	2
+CarPlay	cp	1
+CleanShot X	cs
+Download	dl	1
+Enpass	enp
+Emoji	em
+Mimestream	mim
+Final Cut Pro	fcp
+gfwlist	gfw
+GitHub Desktop	gh	1
+GitHub	gh	2
+Gmail	gm
+Google	gg
+Google Pay	gp
+Google Play	gp	2
+Google Voice	gv
+Gboard	gb
+Handoff	ho
+HyperSwitch	hs
+iCloud	ic
+Illustrator	ill
+iStat Menus	ism
+iWork	iw	4
+iTunes	itunes
+iMac	imac	2
+iMac Pro	imac	1	
+koolproxy	kpr
+koolshare	ks
+Evutec	kfl
+Lightning to USB-C	ltc
+Lightning to USB	ltu
+Mac	mac	2
+Mac mini	mac	1
+macOS	macos	2
+macOS BigSur	macos	1
+Markdown	md
+Microsoft	mic	2
+Microsoft Office	mic	1
+Netflix	nf	
+MacBook Pro	mbp
+MacBook Air	mba
+Messenger	ms
+㎡	pfm
+🐂️🍺️	nb	2
+Numbers	nb	1
+1Password	one	2
+OneDrive	one	1
+openwrt	ow
+Option	ot
+Outlook	ol	2
+outlook.com	ol	1
+Parallels Desktop	pd
+Paragon NTFS	pn
+Photoshop	ps
+Paypal	pp
+Pro	pro
+QQ	qq
+Pages	pg
+readme.md	rm
+ScreenBar Plus	sbp	1
+Shadowrocket	sds	3	
+Safari	sf	2
+Shift	sf	1
+SHIELD TV	stv
+Spotify	sp	1
+Spark	sp	2
+Sublime Text	sbt
+Telegram	tg
+Twitter	tt
+Type-C	tc	
+Typora	ty
+TeamViewer	tv
+USB-C	uc
+V2EX	ve
+WhatsApp	wa
+WeChat	wc	2
+Windows	win
+YouTube	yt
+YouTube Premium	yp
+又双叒叕	yyy
+应该	ying	2
+T恤	txu	1
