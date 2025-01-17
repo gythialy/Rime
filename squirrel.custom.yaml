@@ -84,19 +84,22 @@ patch:
       ascii_mode: true
     com.tencent.meeting:
       ascii_mode: true
-    wiki.qaq.ray0n:
-      ascii_mode: true
     org.alacritty:
       ascii_mode: true
     com.google.Chrome:
       # 規避 https://github.com/rime/squirrel/issues/435
-      asscii_mode: true
-      # inline: true
-    # ru.keepcoder.Telegram:
-    # com.tdesktop.Telegram:
-    #   # 規避 https://github.com/rime/squirrel/issues/475
-    #   inline: true
+      inline: true
+      ascii_mode: true
+    com.tdesktop.Telegram:
+      # 規避 https://github.com/rime/squirrel/issues/475
+      inline: true
     com.colliderli.iina:
       ascii_mode: true
     dev.zed.Zed:
+      ascii_mode: true
+    com.brave.Browser:
+      ascii_mode: true
+    com.todesktop.230313mzl4w4u92:
+      ascii_mode: true
+    com.mitchellh.ghostty:
       ascii_mode: true
