@@ -1,6 +1,6 @@
 patch:
   schema_list:
-    - schema: rime_frost
+    - schema: rime_ice
     # - schema: double_pinyin
     # - schema: double_pinyin_flypy
     # - schema: double_pinyin_mspy
