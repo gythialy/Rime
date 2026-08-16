@@ -1,0 +1,119 @@
+# Rime table
+#@/db_name	rime_custom_phrase.txt
+#@/db_type	tabledb
+#@/tick	0
+AC86U	ac	2
+AppleCare+	ac	1
+App Cleaner & Uninstaller	acu	0
+Apple ID	aid	0
+AiMesh	am	1
+Apple Music	am	2
+Amazon	amazon	0
+AirPods	ap	4
+Alipay	ap	2
+Apple Pay	ap	3
+App Store	as	2
+Apple Store	as	1
+Apple TV	atv	0
+Apple Watch	aw	0
+Android	az	0
+Chrome	ch	100
+Clubhouse	ch	0
+ClashX	cla	0
+Command	cm	1
+CleanMyMac X	cmm	1
+CarPlay	cp	1
+CleanShot X	cs	0
+Control	ct	2
+Download	dl	1
+domain	domain	0
+Dota	dota	0
+Emoji	em	0
+Enpass	enp	0
+Final Cut Pro	fcp	0
+Gboard	gb	0
+gfwlist	gfw	0
+Google	gg	0
+GitHub	gh	2
+GitHub Desktop	gh	1
+Gmail	gm	0
+go	go	0
+Golang	golang	0
+goto	goto	0
+Google Pay	gp	0
+Google Play	gp	2
+Google Voice	gv	0
+Handoff	ho	0
+HyperSwitch	hs	0
+Hugo	hugo	0
+iCloud	ic	0
+Illustrator	ill	0
+iMac	imac	2
+iMac Pro	imac	1
+iStat Menus	ism	0
+iTunes	itunes	0
+iWork	iw	4
+Evutec	kfl	0
+koolproxy	kpr	0
+koolshare	ks	0
+Lightning to USB-C	ltc	0
+Lightning to USB	ltu	0
+Mac	mac	2
+Mac mini	mac	1
+macOS	macos	2
+macOS BigSur	macos	1
+main	main	0
+MacBook Air	mba	0
+MacBook Pro	mbp	0
+Markdown	md	0
+Microsoft	mic	2
+Microsoft Office	mic	1
+Mimestream	mim	0
+Messenger	ms	0
+NASA	nasa	0
+Numbers	nb	1
+🐂️🍺️	nb	2
+Netflix	nf	0
+Outlook	ol	2
+outlook.com	ol	1
+1Password	one	2
+OneDrive	one	1
+Option	ot	0
+openwrt	ow	0
+Parallels Desktop	pd	0
+㎡	pfm	0
+Pages	pg	0
+Paragon NTFS	pn	0
+Paypal	pp	0
+Pro	pro	0
+Photoshop	ps	0
+QQ	qq	0
+Rime	rime	4
+Squirrel	rime	1
+https://rime.im/	rime	2
+鼠须管	rime	3
+readme.md	rm	0
+ScreenBar Plus	sbp	1
+Sublime Text	sbt	0
+Shadowrocket	sds	3
+Safari	sf	2
+Shift	sf	1
+Spark	sp	2
+Spotify	sp	1
+SHIELD TV	stv	0
+Type-C	tc	0
+Telegram	tg	0
+TODO	todo	0
+Twitter	tt	0
+TeamViewer	tv	0
+T恤	txu	1
+Typora	ty	0
+USB-C	uc	0
+V2EX	ve	0
+WhatsApp	wa	0
+WeChat	wc	2
+Windows	win	0
+应该	ying	2
+YouTube Premium	yp	0
+YouTube	yt	0
+又双叒叕	yyyy	0
